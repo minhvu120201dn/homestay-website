@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import ReactPlayer from 'react-player';
+import Switch from 'react-switch';
+
+import { LanguageContext } from '../contexts/language';
 
 function Header() {
+    const { usingVN, setUsingVN } = useContext(LanguageContext);
     return (
         <>
         <header id="home">
@@ -30,11 +34,43 @@ function Header() {
                         <li><a href="#services">Dịch vụ</a></li>
                         <li><a href="#comments">Đánh giá</a></li>
                         <li><a href="#contact">Liên hệ</a></li>
-                        <li className="has-dropdown"><a href="#nonsense">Ngôn ngữ</a>
-                            <ul className="dropdown">
-                                <li><a href="#">Tiếng Việt</a></li>
-                                <li><a href="#">Tiếng Anh</a></li>
-                            </ul>
+                        <li style={{ marginTop: "10px" }}>
+                            <Switch
+                                className="react-switch"
+                                onChange={() => setUsingVN(!usingVN)}
+                                checked={usingVN}
+                                offColor="#08f"
+                                onColor="#0ff"
+                                offHandleColor="#0ff"
+                                onHandleColor="#08f"
+                                height={30}
+                                width={70}
+                                checkedIcon={
+                                    <span role="img" aria-label="vn-flag"
+                                        style={{
+                                            display: "flex",
+                                            justifyContent: "center",
+                                            alignItems: "center",
+                                            height: "100%",
+                                        }}
+                                    >
+                                        🇻🇳
+                                    </span>
+                                }
+                                uncheckedIcon={
+                                    <span role="img" aria-label="uk-flag"
+                                        style={{
+                                            display: "flex",
+                                            justifyContent: "center",
+                                            alignItems: "center",
+                                            height: "100%"
+                                        }}
+                                    >
+                                        🇬🇧
+                                    </span>
+                                }
+                                aria-label="super secret label that is not visible"
+                            />
                         </li>
                     </ul>
 
