@@ -9,7 +9,7 @@ function Header() {
     return (
         <>
         <header id="home">
-            <div className="bg-img" style={{ backgroundImage: "url('./img/homestay.jpg')" }}>
+            <div className="bg-img" style={{ backgroundImage: "url('./img/banner.jpg')" }}>
                 <div className="overlay"></div>
             </div>
             <nav id="nav" className="navbar nav-transparent">
