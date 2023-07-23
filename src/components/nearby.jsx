@@ -17,7 +17,7 @@ function NearbyImgCard(props) {
 
 function NearbyArea() {
     return (
-        <div id="team" className="section md-padding">
+        <div id="nearby" className="section md-padding">
 
             <div className="container">
                 <div className="row">

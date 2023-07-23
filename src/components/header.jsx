@@ -28,16 +28,14 @@ function Header() {
                         <li><a href="#about">Giới thiệu</a></li>
                         <li><a href="#rooms">Không gian phòng</a></li>
                         <li><a href="#services">Dịch vụ</a></li>
-                        <li><a href="#pricing">Chi phí thuê</a></li>
                         <li><a href="#comments">Đánh giá</a></li>
-                        {/*
-                        <li className="has-dropdown"><a href="#blog">Blog</a>
+                        <li><a href="#contact">Liên hệ</a></li>
+                        <li className="has-dropdown"><a href="#nonsense">Ngôn ngữ</a>
                             <ul className="dropdown">
-                                <li><a href="blog-single.html">blog post</a></li>
+                                <li><a href="#">Tiếng Việt</a></li>
+                                <li><a href="#">Tiếng Anh</a></li>
                             </ul>
                         </li>
-                        */}
-                        <li><a href="#contact">Liên hệ</a></li>
                     </ul>
 
                 </div>
@@ -49,10 +47,14 @@ function Header() {
                         <div className="col-md-10 col-md-offset-1">
                             <div className="home-content">
                                 <h1 className="white-text">Lekima Homestay</h1>
-                                <p className="white-text">Nullam sit amet magna in magna gravida vehicula. Mauris tincidunt sem sed arcu. Nunc posuere.
+                                <p className="white-text">
+                                Lekima Homestay Phước Hải là một điểm đến lý tưởng cho
+                                những ai muốn trốn chạy khỏi nhịp sống đô thị ồn ào,
+                                hòa mình vào không gian yên bình của biển cả và thiên
+                                nhiên hoang dã.
                                 </p>
-                                <button className="white-btn">Get Started!</button>
-                                <button className="main-btn">Learn more</button>
+                                {/* <button className="white-btn">Get Started!</button>
+                                <button className="main-btn">Learn more</button> */}
                             </div>
                         </div>
 

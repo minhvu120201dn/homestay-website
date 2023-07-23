@@ -5,37 +5,33 @@ import Header from './components/header';
 import About from './components/about';
 import Rooms from './components/rooms';
 import Services from './components/services';
-import Pricing from './components/pricing';
 import Comments from './components/comments';
 import NearbyArea from './components/nearby';
 import Contact from './components/contact';
 import Footer from './components/footer';
 
-class App extends React.Component {
-	render() {
-		return (
-			<>
-				<Header />
-				<About />
-				<Rooms />
-				<Services />
-				<Pricing />
+function App() {
+	return (
+		<div id="App">
+			<Header />
+			<About />
+			<Rooms />
+			<Services />
 
-				<div id="testimonial" className="section md-padding">
-					<div className="bg-img" style={{ backgroundImage: "url('./img/bienvungtau2.jpg')" }}>
-						<div className="overlay"></div>
-					</div>
+			<div id="testimonial" className="section md-padding">
+				<div className="bg-img" style={{ backgroundImage: "url('./img/bienvungtau2.jpg')" }}>
+					<div className="overlay"></div>
 				</div>
+			</div>
 
-				<Comments />
-				<NearbyArea />
-				<Contact />
-				<Footer />
+			<Comments />
+			<NearbyArea />
+			<Contact />
+			<Footer />
 
-				<div id="back-to-top"></div>
-			</>
-		);
-	}
+			<div id="back-to-top" onClick={() => window.scrollTo({top:0,left:0,behavior:'smooth'})}></div>
+		</div>
+	);
 }
 
 export default App;
