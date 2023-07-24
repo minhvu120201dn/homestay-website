@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { GetLanguage } from './utils';
+
 function RoomImgCard(props) {
     return (
         <div className="col-md-4 col-xs-6 work">
@@ -24,18 +26,46 @@ function Rooms() {
                 <div className="row">
 
                     <div className="section-header text-center">
-                        <h2 className="title">Không gian phòng</h2>
+                        <h2 className="title">
+                            <GetLanguage vn="Không gian phòng" en="Indoor pictures" />
+                        </h2>
                     </div>
 
-                    <RoomImgCard src="./img/phongkhach1.jpg">Phòng khách</RoomImgCard>
-                    <RoomImgCard src="./img/phongkhach2.jpg">Phòng khách</RoomImgCard>
-                    <RoomImgCard src="./img/phongkhach3.jpg">Phòng khách</RoomImgCard>
-                    <RoomImgCard src="./img/room1.jpg">Phòng ngủ</RoomImgCard>
-                    <RoomImgCard src="./img/room2.jpg">Phòng ngủ</RoomImgCard>
-                    <RoomImgCard src="./img/room3.jpg">Phòng ngủ</RoomImgCard>
-                    <RoomImgCard src="./img/vesinh1.jpg">Phòng vệ sinh</RoomImgCard>
-                    <RoomImgCard src="./img/vesinh2.jpg">Phòng vệ sinh</RoomImgCard>
-                    <RoomImgCard src="./img/vesinh3.jpg">Phòng vệ sinh</RoomImgCard>
+                    <RoomImgCard src="./img/phongkhach1.jpg">
+                        <GetLanguage vn="Phòng khách" en="Living room"/>
+                    </RoomImgCard>
+
+                    <RoomImgCard src="./img/phongkhach2.jpg">
+                        <GetLanguage vn="Phòng khách" en="Living room"/>
+                    </RoomImgCard>
+
+                    <RoomImgCard src="./img/phongkhach3.jpg">
+                        <GetLanguage vn="Phòng khách" en="Living room"/>
+                    </RoomImgCard>
+
+                    <RoomImgCard src="./img/room1.jpg">
+                        <GetLanguage vn="Phòng ngủ" en="Bedroom"/>
+                    </RoomImgCard>
+
+                    <RoomImgCard src="./img/room2.jpg">
+                        <GetLanguage vn="Phòng ngủ" en="Bedroom"/>
+                    </RoomImgCard>
+
+                    <RoomImgCard src="./img/room3.jpg">
+                        <GetLanguage vn="Phòng ngủ" en="Bedroom"/>
+                    </RoomImgCard>
+
+                    <RoomImgCard src="./img/vesinh1.jpg">
+                        <GetLanguage vn="Phòng tắm" en="Bathroom"/>
+                    </RoomImgCard>
+
+                    <RoomImgCard src="./img/vesinh2.jpg">
+                        <GetLanguage vn="Phòng tắm" en="Bathroom"/>
+                    </RoomImgCard>
+
+                    <RoomImgCard src="./img/vesinh3.jpg">
+                        <GetLanguage vn="Phòng tắm" en="Bathroom"/>
+                    </RoomImgCard>
 
                 </div>
 
