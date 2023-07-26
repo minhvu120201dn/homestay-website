@@ -11,7 +11,7 @@ function Footer() {
                     <div className="col-md-12">
 
                         <div className="footer-logo">
-                            <a href="index.html"><img src="img/logo-alt.png" alt="logo" /></a>
+                            <a href="index.html"><img src="img/logo_alt.jpg" alt="logo" /></a>
                         </div>
 
                         <ul className="footer-follow">

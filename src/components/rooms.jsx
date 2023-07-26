@@ -27,7 +27,7 @@ function Rooms() {
 
                     <div className="section-header text-center">
                         <h2 className="title">
-                            <GetLanguage vn="Không gian phòng" en="Indoor pictures" />
+                            <GetLanguage vn="Không gian phòng" en="Room" />
                         </h2>
                     </div>
 

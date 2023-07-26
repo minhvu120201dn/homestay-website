@@ -19,7 +19,7 @@ function Header() {
                         <div className="navbar-brand">
                             <a href="index.html">
                                 <img className="logo" src="img/logo.png" alt="logo" />
-                                <img className="logo-alt" src="img/logo-alt.png" alt="logo" />
+                                <img className="logo-alt" src="img/logo.png" alt="logo" />
                             </a>
                         </div>
 
@@ -29,11 +29,11 @@ function Header() {
                     </div>
 
                     <ul className="main-nav nav navbar-nav navbar-right">
-                        <li><a href="#home"><GetLanguage vn="Trang chủ" en="Home page" /></a></li>
+                        <li><a href="#home"><GetLanguage vn="Trang chủ" en="Home" /></a></li>
                         <li><a href="#about"><GetLanguage vn="Giới thiệu" en="Introduction" /></a></li>
-                        <li><a href="#rooms"><GetLanguage vn="Không gian phòng" en="Indoor pictures" /></a></li>
+                        <li><a href="#rooms"><GetLanguage vn="Không gian phòng" en="Room" /></a></li>
                         <li><a href="#services"><GetLanguage vn="Dịch vụ" en="Services" /></a></li>
-                        <li><a href="#comments"><GetLanguage vn="Đánh giá" en="Comments" /></a></li>
+                        {/* <li><a href="#comments"><GetLanguage vn="Đánh giá" en="Comments" /></a></li> */}
                         <li><a href="#contact"><GetLanguage vn="Liên hệ" en="Contact" /></a></li>
                         <li style={{ marginTop: "10px" }}>
                             <Switch

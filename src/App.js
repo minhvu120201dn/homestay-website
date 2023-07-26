@@ -24,7 +24,7 @@ function App() {
 				</div>
 			</div>
 
-			<Comments />
+			{/* <Comments /> */}
 			<NearbyArea />
 			<Contact />
 			<Footer />

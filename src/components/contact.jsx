@@ -1,4 +1,5 @@
 import React from "react";
+// import Map from './map';
 
 function Contact() {
     return (
@@ -33,6 +34,15 @@ function Contact() {
                             <h3>Địa chỉ</h3>
                             <p>Trần Quý Dõng, khu phố Hải Sơn, thị trấn Phước Hải, huyện Đất Đỏ, tỉnh Bà Rịa – Vũng Tàu</p>
                         </div>
+                    </div>
+
+                    <div className="col-md-8 col-md-offset-2">
+                        {/* <Map
+                            googleMapURL={`https://maps.googleapis.com/maps/api/js?key=${key}&callback=initMap`}
+                            loadingElement={<div style={{ height: `100%` }} />}
+                            containerElement={<div style={{ height: `90vh`, margin: `auto`, border: '2px solid black' }} />}
+                            mapElement={<div style={{ height: `100%` }} />}
+                        /> */}
                     </div>
 
                     <div className="col-md-8 col-md-offset-2">
