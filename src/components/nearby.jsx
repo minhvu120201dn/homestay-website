@@ -1,5 +1,7 @@
 import React from "react";
 
+import { GetLanguage } from "./utils";
+
 function NearbyImgCard(props) {
     return (
         <div className="col-md-3 col-xs-6 work">
@@ -22,7 +24,7 @@ function NearbyArea() {
             <div className="container">
                 <div className="row">
                     <div className="section-header text-center">
-                        <h2 className="title">Khu vực lân cận</h2>
+                        <h2 className="title"><GetLanguage vn="Khu vực lân cận" en="Nearby area" /></h2>
                     </div>
                     {/* <NearbyImgCard src="./img/beach1.jpg" />
                     <NearbyImgCard src="./img/beach2.jpg" />

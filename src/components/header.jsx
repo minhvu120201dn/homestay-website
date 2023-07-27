@@ -33,7 +33,8 @@ function Header() {
                         <li><a href="#about"><GetLanguage vn="Giới thiệu" en="Introduction" /></a></li>
                         <li><a href="#rooms"><GetLanguage vn="Không gian phòng" en="Room" /></a></li>
                         <li><a href="#services"><GetLanguage vn="Dịch vụ" en="Services" /></a></li>
-                        {/* <li><a href="#comments"><GetLanguage vn="Đánh giá" en="Comments" /></a></li> */}
+                        <li><a href="#rules"><GetLanguage vn="Quy tắc chung" en="Common rules" /></a></li>
+                        <li><a href="#nearby"><GetLanguage vn="Khu vực lân cận" en="Nearby area" /></a></li>
                         <li><a href="#contact"><GetLanguage vn="Liên hệ" en="Contact" /></a></li>
                         <li style={{ marginTop: "10px" }}>
                             <Switch
@@ -88,18 +89,18 @@ function Header() {
                                 <GetLanguage
                                     vn={
                                         <span>
-                                        Lekima Phước Hải Homestay là một điểm đến lý tưởng cho
-                                        những ai muốn trốn chạy khỏi nhịp sống đô thị ồn ào,
-                                        hòa mình vào không gian yên bình của biển cả và thiên
-                                        nhiên hoang dã.
+                                            Lekima Phước Hải Homestay là một điểm đến lý tưởng cho
+                                            những ai muốn trốn chạy khỏi nhịp sống đô thị ồn ào,
+                                            hòa mình vào không gian yên bình của biển cả và thiên
+                                            nhiên hoang dã.
                                         </span>
                                     }
                                     en={
                                         <span>                                        
-                                        Lekima Phuoc Hai Homestay is an ideal destination for
-                                        whoever wants to escape from the noisy urban life and
-                                        immerses in the peaceful atmosphere of the sea and
-                                        the wildlife.
+                                            Lekima Phuoc Hai Homestay is an ideal destination for
+                                            whoever wants to escape from the noisy urban life and
+                                            immerses in the peaceful atmosphere of the sea and
+                                            the wildlife.
                                         </span>
                                     }
                                 />

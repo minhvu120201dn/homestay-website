@@ -831,6 +831,52 @@ header {
 }
 
 /*------------------------------------*\
+	Rules
+\*------------------------------------*/
+
+.rule {
+    position: relative;
+    padding: 10px 20px 5px 70px;
+    margin: 5px 0px;
+    border: 1px solid #EEE;
+}
+
+.rule i {
+    position: absolute;
+    left: 20px;
+    text-align: center;
+    font-size: 32px;
+    color: #6195FF;
+    border-radius: 50%;
+}
+
+.rule:after {
+    content: "";
+    background-color: #1C1D21;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0%;
+    z-index: -1;
+    -webkit-transition: 0.2s width;
+    transition: 0.2s width;
+}
+
+.rule:hover:after {
+    width: 100%;
+}
+
+.rule h3 {
+  -webkit-transition: 0.2s color;
+  transition: 0.2s color;
+}
+
+.rule:hover h3 {
+    color: #fff;
+}
+
+/*------------------------------------*\
 	Why choose us
 \*------------------------------------*/
 

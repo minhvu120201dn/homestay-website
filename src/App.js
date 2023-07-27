@@ -5,8 +5,9 @@ import Header from './components/header';
 import About from './components/about';
 import Rooms from './components/rooms';
 import Services from './components/services';
-import Comments from './components/comments';
+// import Comments from './components/comments';
 import NearbyArea from './components/nearby';
+import CommonRules from './components/rules';
 import Contact from './components/contact';
 import Footer from './components/footer';
 
@@ -25,6 +26,7 @@ function App() {
 			</div>
 
 			{/* <Comments /> */}
+			<CommonRules />
 			<NearbyArea />
 			<Contact />
 			<Footer />
