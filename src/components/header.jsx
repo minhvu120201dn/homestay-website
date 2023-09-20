@@ -83,7 +83,7 @@ function Header() {
 
                         <div className="col-md-10 col-md-offset-1">
                             <div className="home-content">
-                                <h1 className="white-text">Lekima Homestay</h1>
+                                <h1 className="white-text">Phuoc Hai Lekima Homestay</h1>
                                 <p className="white-text">
                                 <GetLanguage
                                     vn={
