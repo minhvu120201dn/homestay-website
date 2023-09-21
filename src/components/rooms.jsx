@@ -20,17 +20,13 @@ function RoomImgCard(props) {
 function Rooms() {
     return (
         <div id="rooms" className="section md-padding bg-grey">
-
             <div className="container">
-
                 <div className="row">
-
                     <div className="section-header text-center">
                         <h2 className="title">
                             <GetLanguage vn="Không gian phòng" en="Room" />
                         </h2>
                     </div>
-
                     <RoomImgCard src="./img/phongkhach1.jpg">
                         <GetLanguage vn="Phòng khách" en="Living room"/>
                     </RoomImgCard>
@@ -66,11 +62,8 @@ function Rooms() {
                     <RoomImgCard src="./img/vesinh3.jpg">
                         <GetLanguage vn="Phòng tắm" en="Bathroom"/>
                     </RoomImgCard>
-
                 </div>
-
             </div>
-
         </div>
     );
 }

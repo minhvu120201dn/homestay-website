@@ -1,6 +1,8 @@
 import React from "react";
 // import Map from './map';
 
+import { GetLanguage } from "./utils";
+
 function Contact() {
     return (
         <div id="contact" className="section md-padding">
@@ -10,13 +12,13 @@ function Contact() {
                 <div className="row">
 
                     <div className="section-header text-center">
-                        <h2 className="title">Thông tin liên hệ</h2>
+                        <h2 className="title"><GetLanguage vn="Thông tin liên hệ" en="Contact" /></h2>
                     </div>
                     <div className="col-sm-4">
                         <div className="contact">
                             <i className="fa fa-phone"></i>
                             <h3>Hotline</h3>
-                            <p>0912442278 hoặc 0912367830</p>
+                            <p>0912442278 / 0912367830</p>                           
                         </div>
                     </div>
 
@@ -31,8 +33,18 @@ function Contact() {
                     <div className="col-sm-4">
                         <div className="contact">
                             <i className="fa fa-map-marker"></i>
-                            <h3>Địa chỉ</h3>
-                            <p>Trần Quý Dõng, khu phố Hải Sơn, thị trấn Phước Hải, huyện Đất Đỏ, tỉnh Bà Rịa – Vũng Tàu</p>
+                            <GetLanguage
+                                vn={<>
+                                    <h3>Địa chỉ</h3>
+                                    <p>Trần Quý Dõng, khu phố Hải Sơn, thị trấn Phước Hải,
+                                    huyện Đất Đỏ, tỉnh Bà Rịa - Vũng Tàu</p>
+                                </>}
+                                en={<>
+                                    <h3>Address</h3>
+                                    <p>Tran Quy Dung, Hai Son Quarter, Phuoc Hai Town, Dat
+                                    Do District, Ba Ria - Vung Tau Province</p>
+                                </>}
+                            />
                         </div>
                     </div>
 
@@ -45,14 +57,14 @@ function Contact() {
                         /> */}
                     </div>
 
-                    <div className="col-md-8 col-md-offset-2">
+                    {/* <div className="col-md-8 col-md-offset-2">
                         <form className="contact-form">
                             <input type="text" className="input" placeholder="Tên" />
                             <input type="email" className="input" placeholder="Email" />
                             <textarea className="input" placeholder="Nhập tin nhắn..."></textarea>
                             <button className="main-btn">Gửi tin nhắn</button>
                         </form>
-                    </div>
+                    </div> */}
 
                 </div>
 

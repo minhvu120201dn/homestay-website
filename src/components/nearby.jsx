@@ -1,5 +1,7 @@
 import React from "react";
 
+import { GetLanguage } from "./utils";
+
 function NearbyImgCard(props) {
     return (
         <div className="col-md-3 col-xs-6 work">
@@ -22,7 +24,7 @@ function NearbyArea() {
             <div className="container">
                 <div className="row">
                     <div className="section-header text-center">
-                        <h2 className="title">Khu vực lân cận</h2>
+                        <h2 className="title"><GetLanguage vn="Khu vực lân cận" en="Nearby Area" /></h2>
                     </div>
                     {/* <NearbyImgCard src="./img/beach1.jpg" />
                     <NearbyImgCard src="./img/beach2.jpg" />
@@ -40,7 +42,7 @@ function NearbyArea() {
                                 <div className="property-description">
                                     <img style={{ width: "40px", height: "40px" }} src="./img/coffee-cup.png"></img>
                                     <h5> Elvis Coffee </h5>
-                                    <p>Cách 2,1 km</p>
+                                    <p><GetLanguage vn="Cách 2.1 km" en="2.1km away" /></p>
                                 </div>
                             </div>
                         </div>
@@ -51,8 +53,16 @@ function NearbyArea() {
                                     </div></a>
                                 <div className="property-description">
                                     <img style={{ width: "40px", height: "40px" }} src="./img/restaurant.png"></img>
-                                    <h5>Nhà hàng Maison Long Hai</h5>
-                                    <p>Cách 4,3 km</p>
+                                    <GetLanguage
+                                        vn={<>
+                                            <h5>Nhà hàng Maison Long Hai</h5>
+                                            <p>Cách 4,3 km</p>
+                                        </>}
+                                        en={<>
+                                            <h5>Maison Long Hai</h5>
+                                            <p>4,3km away</p>
+                                        </>}
+                                    />
                                 </div>
                             </div>
                         </div>
@@ -63,8 +73,16 @@ function NearbyArea() {
                                     </div></a>
                                 <div className="property-description">
                                     <img style={{ width: "40px", height: "40px" }} src="./img/barracks.png"></img>
-                                    <h5>Khu di tích lịch sử Minh Đạm</h5>
-                                    <p>Cách 2,6 km</p>
+                                    <GetLanguage
+                                        vn={<>
+                                            <h5>Khu di tích lịch sử Minh Đạm</h5>
+                                            <p>Cách 2,6 km</p>
+                                        </>}
+                                        en={<>
+                                            <h5>Minh Dam Historical Monuments</h5>
+                                            <p>2,6km away</p>
+                                        </>}
+                                    />
                                 </div>
                             </div>
                         </div>
@@ -75,8 +93,16 @@ function NearbyArea() {
                                     </div></a>
                                 <div className="property-description">
                                     <img style={{ width: "40px", height: "40px" }} src="./img/waterfall.png"></img>
-                                    <h5>Đèo Nước Ngọt</h5>
-                                    <p>Cách 4,5 km</p>
+                                    <GetLanguage
+                                        vn={<>
+                                            <h5>Đèo Nước Ngọt</h5>
+                                            <p>Cách 4,5 km</p>
+                                        </>}
+                                        en={<>
+                                            <h5>Fresh water pass</h5>
+                                            <p>4,5km away</p>
+                                        </>}
+                                    />
                                 </div>
                             </div>
                         </div>
@@ -88,8 +114,16 @@ function NearbyArea() {
                                         </div></a>
                                     <div className="property-description">
                                         <img style={{ width: "40px", height: "40px" }} src="./img/vacations.png"></img>
-                                        <h5>Bãi biển Long Hải</h5>
-                                        <p>Cách 6 km</p>
+                                        <GetLanguage
+                                            vn={<>
+                                                <h5>Bãi biển Long Hải</h5>
+                                                <p>Cách 4,3 km</p>
+                                            </>}
+                                            en={<>
+                                                <h5>Long Hai Beach</h5>
+                                                <p>4,3km away</p>
+                                            </>}
+                                        />
                                     </div>
                                 </div>
                             </div>
@@ -100,8 +134,16 @@ function NearbyArea() {
                                         </div></a>
                                     <div className="property-description">
                                         <img style={{ width: "40px", height: "40px" }} src="./img/park.png"></img>
-                                        <h5>Công viên Võ Thị Sáu</h5>
-                                        <p>Cách 8 km</p>
+                                        <GetLanguage
+                                            vn={<>
+                                                <h5>Công viên Võ Thị Sáu</h5>
+                                                <p>Cách 8 km</p>
+                                            </>}
+                                            en={<>
+                                                <h5>Võ Thị Sáu Park</h5>
+                                                <p>8km away</p>
+                                            </>}
+                                        />
                                     </div>
                                 </div>
                             </div>
@@ -112,8 +154,16 @@ function NearbyArea() {
                                         </div></a>
                                     <div className="property-description">
                                         <img style={{ width: "40px", height: "40px" }} src="./img/places-to-visit.png"></img>
-                                        <h5>Thập tự giá Long Tân</h5>
-                                        <p>Cách 15 km</p>
+                                        <GetLanguage
+                                            vn={<>        
+                                                <h5>Thập tự giá Long Tân</h5>
+                                                <p>Cách 15 km</p>
+                                            </>}
+                                            en={<>
+                                                <h5>Long Tân Cross</h5>
+                                                <p>15km away</p>
+                                            </>}
+                                        />
                                     </div>
                                 </div>
                             </div>
@@ -124,8 +174,16 @@ function NearbyArea() {
                                         </div></a>
                                     <div className="property-description">
                                         <img style={{ width: "40px", height: "40px" }} src="./img/airport.png"></img>
-                                        <h5>Sân bay Vũng Tàu</h5>
-                                        <p>Cách 20 km</p>
+                                        <GetLanguage
+                                            vn={<>
+                                                <h5>Sân bay Vũng Tàu</h5>
+                                                <p>Cách 20 km</p>
+                                            </>}
+                                            en={<>
+                                                <h5>Vũng Tàu Airport</h5>
+                                                <p>20km away</p>
+                                            </>}
+                                        />
                                     </div>
                                 </div>
                             </div>
