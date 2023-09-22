@@ -77,11 +77,11 @@ function CommonRules() {
                         <GetLanguage
                             vn={<>
                                 <h3>Thanh toán</h3>
-                                <p>Chỉ chấp nhận thanh toán bằng tiền mặt.</p>
+                                <p>Thanh toán bằng tiền mặt hoặc chuyển khoản.</p>
                             </>}
                             en={<>
                                 <h3>Payment</h3>
-                                <p>Only cash is allowed.</p>
+                                <p>Payment can be by cash or bank transfer.</p>
                             </>}
                         />
                     </div>
