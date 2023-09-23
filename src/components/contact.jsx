@@ -26,7 +26,7 @@ function Contact() {
                         <div className="contact">
                             <i className="fa fa-envelope"></i>
                             <h3>Email</h3>
-                            <p>email@support.com</p>
+                            <p>quangvnguide@gmail.com</p>
                         </div>
                     </div>
 
