@@ -113,7 +113,7 @@ function NearbyArea() {
                                         <div className="property-image" style={{ backgroundImage: "url('./img/Phuochai1.jpg')" }}>
                                         </div></a>
                                     <div className="property-description">
-                                        <img style={{ width: "40px", height: "40px" }} src="./img/vacations.png"></img>
+                                        <img style={{ width: "40px", height: "40px" }} src="./img/longhai.png"></img>
                                         <GetLanguage
                                             vn={<>
                                                 <h5>Bãi biển Long Hải</h5>
