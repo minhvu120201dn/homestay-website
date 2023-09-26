@@ -110,10 +110,10 @@ function NearbyArea() {
                             <div className="col-md-3 col-sm-6 work">
                                 <div className="property-card">
                                     <a href="https://www.traveloka.com/vi-vn/explore/destination/bien-long-hai-acc/159054" target="_blank">
-                                        <div className="property-image" style={{ backgroundImage: "url('./img/Phuochai1.jpg')" }}>
+                                        <div className="property-image" style={{ backgroundImage: "url('./img/longhai.jpg')" }}>
                                         </div></a>
                                     <div className="property-description">
-                                        <img style={{ width: "40px", height: "40px" }} src="./img/longhai.png"></img>
+                                        <img style={{ width: "40px", height: "40px" }} src="./img/vacations.png"></img>
                                         <GetLanguage
                                             vn={<>
                                                 <h5>Bãi biển Long Hải</h5>
