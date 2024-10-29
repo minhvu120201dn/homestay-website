@@ -1,6 +1,6 @@
 ### Live Demo
 
-Check out the live site here: [Lekima Homestay]([https://your-netlify-site-link.netlify.app](https://phuoc-hai-lekima-homestay.netlify.app/)
+Check out the live site here: [Lekima Homestay](https://phuoc-hai-lekima-homestay.netlify.app/)
 
 ### Features
 
