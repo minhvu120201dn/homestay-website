@@ -1,7 +1,3 @@
-# Project Name
-
-A brief description of your website goes here. (e.g., "A personal blog showcasing my articles on web development, design, and programming.")
-
 ### Live Demo
 
 Check out the live site here: [Lekima Homestay]([https://your-netlify-site-link.netlify.app](https://phuoc-hai-lekima-homestay.netlify.app/)
