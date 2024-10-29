@@ -4,12 +4,12 @@ Check out the live site here: [Lekima Homestay](https://phuoc-hai-lekima-homesta
 
 ### Features
 
-- List key features of the website (e.g., "Responsive design", "Dark mode toggle", "Contact form integration").
+- Responsive design
+- Toggle to switch between languages (English and Vietnamese)
 
 ### Technology Stack
 
-- **Frontend**: Describe the framework or library used (e.g., HTML/CSS, JavaScript, React, Vue)
-- **Backend** (if applicable): Describe any backend technologies (e.g., Node.js, Express, APIs)
+- **Frontend**: ReactJS
 - **Deployment**: Deployed on Netlify
 
 ### Installation
